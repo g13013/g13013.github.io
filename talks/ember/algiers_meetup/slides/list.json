@@ -1,0 +1,36 @@
+[
+    {"filename": "welcome.html", "attr": {"data-transition": "fade"}},
+    {"filename": "history.md", "attr": {"data-transition": "fade"}},
+
+    [{"filename": "behind.md", "attr": {"data-transition": "fade"}},
+    {"filename": "founders.html", "attr": {"data-transition": "fade"}},
+    {"filename": "coreteam.html", "attr": {"data-transition": "fade"}},
+    {"filename": "community.md", "attr": {"data-transition": "fade"}}],
+
+    {"filename": "philosophy.md", "attr": {"data-transition": "fade"}},
+    {"filename": "users.md", "attr": {"data-transition": "fade"}},
+
+    [{"filename": "features.md", "attr": {"data-transition": "fade"}},
+    {"filename": "features-templating.html", "attr": {"data-transition": "fade"}},
+    {"filename": "features-cp-observers.html", "attr": {"data-transition": "fade"}},
+    {"filename": "features-data-binding.html", "attr": {"data-transition": "fade"}},
+    {"filename": "other-features.md", "attr": {"data-transition": "fade"}}],
+
+    [{"filename": "concepts.md", "attr": {"data-transition": "fade"}},
+    {"filename": "concepts-1.md", "attr": {"data-transition": "fade"}},
+    {"filename": "concepts-2.md", "attr": {"data-transition": "fade"}}],
+
+    [{"filename": "stack.md", "attr": {"data-transition": "fade"}},
+    {"filename": "ember-data.md", "attr": {"data-transition": "fade"}},
+    {"filename": "ember-cli.md", "attr": {"data-transition": "fade"}},
+    {"filename": "ember-inspector.md", "attr": {"data-transition": "fade"}},
+    {"filename": "htmlbars.md", "attr": {"data-transition": "fade"}},
+    {"filename": "glimmer.md", "attr": {"data-transition": "fade"}},
+    {"filename": "fast-boot.md", "attr": {"data-transition": "fade"}},
+    {"filename": "liquid-fire.md", "attr": {"data-transition": "fade"}}],
+
+    {"filename": "future-development.md", "attr": {"data-transition": "fade"}},
+    {"filename": "other-information.md", "attr": {"data-transition": "fade"}},
+    {"filename": "ember-rfc.md", "attr": {"data-transition": "fade"}},
+    {"filename": "thank-you.md", "attr": {"data-transition": "fade"}}
+]

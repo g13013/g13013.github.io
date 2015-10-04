@@ -1,0 +1,18 @@
+<h6>Computed Properties</h6>
+
+<pre>
+  <code>
+  fullName: Ember.computed('firstName', 'lastName', function() {
+    return this.get('firstName') + " " + this.get('lastName');
+  });
+  </code>
+</pre>
+
+<h6>Observers</h6>
+<pre>
+  <code>
+    fullNameDidChange: Ember.observer('fullName', function() {
+      this.send('fullNameChanged');
+    });
+  </code>
+</pre>

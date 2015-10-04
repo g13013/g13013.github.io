@@ -1,0 +1,26 @@
+<h6>Data Binding</h6>
+<pre>
+  <code>
+<form>
+  <div> FirstName: <input id="first_name" value={{firstName}}></div>
+  <div> Name:  <input  id="last_name" value={{lastName}}></div>
+  <div> Full Name: {{fullName}} </div>
+</form>
+  </code>
+</pre>
+
+<pre>
+  <code>
+  User = Ember.Object.extend({
+    firstName: 'Aboubakr',
+    lastName: 'Gasmi',
+    fullName: Ember.computed('firstName', 'lastName', function() {
+      return this.get('firstName') + " " + this.get('lastName');
+    });
+  });
+  ...
+
+  user.set('userName', "Mohamed");
+  user.get('fullName'); // "Mohamed Gasmi"
+  </code>
+</pre>
