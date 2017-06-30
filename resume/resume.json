@@ -161,7 +161,7 @@
         "QUnit", "Mocha", "RSpec", "JUnit",
         "Cucumber", "Selenium",
         "Gitlab", "Github",
-        "Docker", "Docker-Compose",
+        "Docker",
         "GruntJS", "BroccoliJS", "EmberCLI",
         "CoreOS"
       ]
@@ -169,6 +169,11 @@
       "name": "Architecture",
       "keywords": [
         "DDD", "Software Design", "Microservices"
+      ]
+    }, {
+      "name": "Others",
+      "keywords": [
+        "Agile", "Scrum"
       ]
     }
   ],
