@@ -6,7 +6,7 @@
     "email": "g13013@gmail.com",
     "phone": "(213) 554-389015",
     "website": "https://g13013.github.io",
-    "summary": "Aboubakr is a self-thought passionate developer, he loves creating things and automate whenever possible, he also enjoys the precious moments with his family and friends",
+    "summary": "Aboubakr is a self-taught passionate developer, he loves creating things and automate whenever possible, he also enjoys the precious moments with his family and friends",
     "location": {
       "address": "250 log Bt L cage 2",
       "postalCode": "16002",
@@ -33,15 +33,29 @@
     ]
   },
   "work": [
+    {
+      "company": "Emploitic SPA.",
+      "position": "Software Architect",
+      "startDate": "2018-03-01",
+      "summary": "Emploitic.com is a start-up based in Algiers (Algeria), recently launched two new products for the African continent Novojob.com and Talenteo.com",
+      "highlights": [
+        "Design future architecture, using containerized MicroServices (Docker/Kubernetes), communicating using REST, GRPC & PROTOBUF.",
+        "Prepare the rewrite of of existing PHP services in Golang."
+      ]
+    },
      {
       "company": "Emploitic SPA.",
       "position": "Lead Developer",
       "startDate": "2015-04-01",
-      "summary": "Emploitic.com is a start-up based in Algiers (Algeria), recently launched two new products for the African continent Novojob.com and Talenteo.com",
+      "endDate": "2018-03-01",
       "highlights": [
-        "Prepare the migration of the Talenteo.com to a single app application using EmberJS",
-        "Prepare for the switch to a microservices architecture using DDD patterns",
-        "Prepare for the switch to a fully automated deployment pipeline"
+        "Prepare the guidelines and lead the introduction and application of DevOps practices in the development process.",
+        "Prepare for the switch to a fully automated deployment pipeline.",
+        "Implemeted the automated deployment of our 3 products.",
+        "Design and implementation of Talenteo. REST API v2 using DDD patterns.",
+        "Migration of our Java based functional test to Ruby, using cucumber.",
+        "Prepare for the migration of our product's front-end to a single page application.",
+        "Prepare for the switch of our products backend to a microservices architecture."
       ]
     },
     {
@@ -50,10 +64,11 @@
       "startDate": "2013-02-01",
       "endDate": "2015-04-01",
       "highlights": [
-        "Code reviews",
-        "Manage and prioritize Front-End related tasks",
-        "Started and developed three internal Ruby projects used to automate the build/test tasks for our products",
-        "Designed, coded, configured and installed the entire build, test and dev deployment environment using technologies like Gitlab, Docker, Rake, CoreOS and Selenium, for a total of 14 CI services"
+        "Code reviews.",
+        "Manage and prioritize Front-End tasks and stories.",
+        "Initiated 3 internal Ruby projects used enhance the developer experience allowing for using our functional tests written in (Java/Cucumber) on the CI and developer machine with simple commands.",
+        "Designed the architecture and configuration of the company's CI platform for our products, with Gitlab (in-promise) as the CVS.",
+        "Configured and installed the entire CI platform hosted in multiple local/remote CoreOs/Ubuntu machines, backed by a total of 14 CI services."
       ]
     },
     {
@@ -63,11 +78,11 @@
       "endDate": "2015-04-01",
       "website": "http://www.emploitic.com/",
       "highlights": [
-        "Development of a single app multi-CV editing application using EmberJS https://www.emploitic.com/mon-compte",
-        "Facebook single app job searching application using jquery",
-        "Started and developed the internal JavaScript library project Elib-Core",
-        "Started and contributed to the internal HTML components (widgets) project on top of the internal library Elib-Core",
-        "Introduced assets and product build tools to the company"
+        "Development of a single app multi-CV editing application using EmberJS, with a custom simplified Data layer (before Ember-Data v1 was released).",
+        "Facebook single page job searching application using jquery, api backed by php.",
+        "Initiated the company's internal JavaScript library project Elib-Core.",
+        "Initiated and contributed to the internal HTML components (widgets) project on top of the internal library Elib-Core.",
+        "Introduced assets and product build tools to the company."
       ]
     },
     {
@@ -85,9 +100,9 @@
       "endDate": "2008-09-01",
       "summary": "GMS was the exclusive representant of Mercedes-Benz in Algeria, since 2010, it also represent various chinese and american cars brands like Dodge, Jeep, Chrysler and GreatWall..",
       "highlights": [
-        "Budget Management",
-        "Development of the company's Sales Management System Using ExtJS",
-        "Installation & configuration of multiple Windows AD Servers hosted on HyperV"
+        "Budget Management.",
+        "Development of the company's Sales Management System Using ExtJS.",
+        "Installation & configuration of multiple Windows AD Servers hosted on HyperV."
       ]
     },
     {
@@ -97,8 +112,8 @@
       "startDate": "2008-09-01",
       "endDate": "2011-12-01",
       "highlights": [
-        "User assistance & PC's maintenance",
-        "Network troubleshooting and maintenance"
+        "User assistance & PC's maintenance.",
+        "Network troubleshooting and maintenance."
       ]
     }
   ],

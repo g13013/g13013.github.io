@@ -1,0 +1,5 @@
+#!/bin/bash
+
+npm install
+node_modules/.bin/resume export index.html --theme kendall 
+node_modules/.bin/resume export aboubakr-gasmi.pdf --theme paper
