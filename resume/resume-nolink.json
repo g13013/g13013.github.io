@@ -1,0 +1,255 @@
+{
+  "basics": {
+    "name": "Gasmi Aboubakr",
+    "label": "Software Solutions Architect",
+    "picture": "",
+    "email": "g13013@gmail.com",
+    "phone": "(213) 554-389015",
+    "website": "https://g13013.github.io",
+    "summary": "Aboubakr is a self-taught passionate developer and architect, he loves creation, innovation, system architectures & automation, he also enjoys all precious moments with his family and friends.",
+    "location": {
+      "address": "250 Log BT L Cage 2 Porte 7",
+      "postalCode": "16002",
+      "city": "Algiers",
+      "countryCode": "DZ",
+      "region": "Chéraga"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "g13013",
+        "url": "https://twitter.com/g13013"
+      },
+      {
+        "network": "Linkedin",
+        "username": "aboubakr-gasmi",
+        "url": "https://www.linkedin.com/in/aboubakr-gasmi-15028716"
+      },
+      {
+        "network": "Github",
+        "username": "g13013",
+        "url": "https://github.com/g13013"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Emploitic SPA.",
+      "position": "Software Architect",
+      "startDate": "2018-03-01",
+      "summary": "Emploitic is a multinational company based in Algiers (Algeria) and is present in 5 countries by January 2020. mainly providing HR solutions and owns emploitic.com, novojob.com, talenteo.com, kherdja.com",
+      "highlights": [
+        "Design architectures of emploitic.com, novojob.com & talenteo.com (API first) using rechnologies like REST, GRPC & PROTOBUF.",
+        "Leading & coordinating the move to containerized development & production environements (Docker/Swarm/Kubernetes).",
+        "Designed, implemented & deployed (in golang) of internal mailing microservices that auto-handles bounce messages in real-time (Barid/Bouncestash/Bouncebeat).",
+        "Prepare the migration of some existing PHP services to Golang."
+      ]
+    },
+     {
+      "company": "Emploitic SPA.",
+      "position": "Lead Developer",
+      "startDate": "2015-04-01",
+      "endDate": "2018-03-01",
+      "highlights": [
+        "Prepare the guidelines and lead the introduction and application of DevOps practices in the development process.",
+        "Implemeted the fully automated deployment of emploitic.com, novojob.com & talenteo.com.",
+        "Design and implementation of Talenteo REST API v2 using DDD patterns.",
+        "Leading the migration of our Java based functional tests to Ruby, using cucumber.",
+        "Prepare for the migration of our product's front-end to a single page application.",
+        "Prepare for the switch of our products backend to a microservices architecture."
+      ]
+    },
+    {
+      "company": "Emploitic SARL",
+      "position": "Lead Front-End Developer",
+      "startDate": "2014-02-01",
+      "endDate": "2015-04-01",
+      "highlights": [
+        "Code reviews.",
+        "Manage and prioritize Front-End tasks and stories.",
+        "Initiated 3 internal Ruby projects used enhance the developer experience allowing for using our functional tests written in (Java/Cucumber) on the CI and developer machines with simple commands.",
+        "Designed the architecture and configuration of the company's CI platform for our products, with Gitlab (on-premises) as platform",
+        "Configured and installed the entire CI platform hosted in multiple local/remote CoreOs/Ubuntu machines, backed by a total of 14 CI services (for DNS, caching ...)."
+      ]
+    },
+    {
+      "company": "Emploitic SARL",
+      "position": "Front-End Developer",
+      "startDate": "2013-02-13",
+      "endDate": "2014-02-01",
+      "highlights": [
+        "Development of a SPA multi-CV editing application using EmberJS, with a custom simplified Data layer (before Ember-Data v1 was released).",
+        "Facebook single page job searching application using jquery, api backed by php.",
+        "Initiated the company's internal JavaScript library project Elib-Core.",
+        "Initiated and contributed to the internal HTML components (widgets) project on top of the internal library Elib-Core.",
+        "Introduced assets and product build atomation tools to the company."
+      ]
+    },
+    {
+      "company": "ImaginePartners",
+      "position": "Front-End Developer",
+      "startDate": "2012-10-14",
+      "endDate": "2013-02-07",
+      "summary": "Software Development and Consulting company based in Algiers"
+    },{
+      "company": "Logiccap",
+      "position": "Front-End Developer",
+      "startDate": "2012-01-02",
+      "endDate": "2012-02-29",
+      "summary": "Software Development and Consulting company based in Algiers"
+    },
+    {
+      "company": "GMS (Mercedes-Benz Algeria)",
+      "position": "CTO",
+      "website": "http://www.gmsalgerie.com/",
+      "startDate": "2008-09-01",
+      "endDate": "2011-12-29",
+      "summary": "GMS was the exclusive representant of Mercedes-Benz in Algeria, since 2010, it also represent various chinese and american cars brands like Dodge, Jeep, Chrysler and GreatWall..",
+      "highlights": [
+        "Budget Management.",
+        "Development of the company's Sales Management System Using ExtJS.",
+        "Installation & configuration of multiple Windows AD Servers hosted on HyperV."
+      ]
+    },
+    {
+      "company": "GMS (Mercedes-Benz Algeria)",
+      "position": "Engineer",
+      "startDate": "2007-12-25",
+      "endDate": "2008-09-01",
+      "highlights": [
+        "User assistance & PC's maintenance.",
+        "Network troubleshooting and maintenance."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Université des Sciences De Gestion",
+      "area": "Finance",
+      "studyType": "Bachelor",
+      "startDate": "2004-01-01",
+      "endDate": "2009-01-01"
+    },
+    {
+      "institution": "Hopeland Institute",
+      "area": "English level 4/5",
+      "studyType": "Private school",
+      "startDate": "2008-01-01",
+      "endDate": "2010-01-01"
+    }
+  ],
+  "awards": [{
+    "title": "AWS Certified Solutions Architect Associate (SAA-C01)",
+    "date": "2020-02-19",
+    "awarder": "Amazon Web Service (AWS)",
+    "summary": "The AWS Certified Solutions Architect – Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform."
+  },{
+    "title": "eMB Basic Training Wholesale Certificate",
+    "date": "2011-02-09",
+    "awarder": "Daimler (Mercedes-Benz)",
+    "summary": "Stuttgart (Germany)"
+  }],
+  "publications": [
+    {
+      "name": "Talk slides about EmberJS in Algiers Tech Meetup",
+      "publisher": "Github Pages",
+      "releaseDate": "2014-10-01",
+      "website": "http://g13013.github.io/talks/ember/algiers_meetup/index.html"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "intermediate/master",
+      "keywords": [
+        "JavaScript",
+        "Golang",
+        "Ruby",
+        "PHP",
+        "Python",
+        "C++",
+        "..."
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "intermediate/master",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "Frameworks & Platforms",
+      "keywords": [
+        "EmberJS", "Angular", "ExtJS4/5",
+        "ExpressJS", "Koa", "Hapi",
+        "NodeJS", "Mac", "Linux", "...Windows"
+      ]
+    },
+    {
+      "name": "DevOps & Testing",
+      "level": "intermediate/master",
+      "keywords": [
+        "Rake",
+        "QUnit", "Mocha", "RSpec", "JUnit",
+        "Cucumber", "Selenium",
+        "Gitlab", "Github",
+        "Docker", "Swarm",
+        "GruntJS", "BroccoliJS", "EmberCLI"
+      ]
+    }, {
+      "name": "Architecture",
+      "keywords": [
+        "DDD", "Software Design", "Microservices"
+      ]
+    }, {
+      "name": "Others",
+      "keywords": [
+        "Agile", "Scrum"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Arabic",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Amazigh/Kabyle",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Entertainment",
+      "keywords": [
+        "Movies",
+        "Documentaries",
+        "Sports",
+        "Mangas",
+        "Video Games"
+      ]
+    }, {
+      "name": "Everyday's life",
+      "keywords": [
+        "New Technologies",
+        "Science",
+        "Familly"
+      ]
+    }
+  ],
+  "references": [
+  ]
+}

@@ -1,5 +1,7 @@
 #!/bin/bash
+set -e 
 
-npm install
-node_modules/.bin/resume export index.html --theme kendall 
-node_modules/.bin/resume export aboubakr-gasmi.pdf --theme paper
+docker build . -t myresume-builder
+docker run -it -v `pwd`:/home/out --rm myresume-builder build out/resume.json -o out/ -n resume -f pdf -t paper
+docker run -it -v `pwd`:/home/out --rm myresume-builder build out/resume.json -o out/ -n resume -f docx -t paper
+docker run -it -v `pwd`:/home/out --rm myresume-builder build out/resume.json -o out/ -n index -f html -t stackoverflow

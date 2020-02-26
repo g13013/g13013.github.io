@@ -1,775 +1,1363 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume of Gasmi Aboubakr</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <style type="text/css">
-    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
-@charset "utf-8";
-@-webkit-viewport   { width: device-width; }
-@-moz-viewport      { width: device-width; }
-@-ms-viewport       { width: device-width; }
-@-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Gasmi Aboubakr</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
 
-body{
-  font-family: 'Open Sans', Arial, Tahoma;
-  font-weight: 400;
-  color: #363636;
-  background: #334960;
-}
-blockquote {
-  font-size: 1em;
-}
-
-.container{
-  margin-top: 80px;
-  margin-bottom: 15px;
-  background: #fff;
-}
-
-#photo-header{
-  margin-top: -75px;
-}
-#photo{
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  overflow: hidden;
-  padding: 5px;
-  background: #334960;
-  display: inline-block;
-}
-#photo img{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-#text-header h1{
-  margin: 0;
-  padding: 0;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-}
-#text-header h1::first-line{
-  font-size: 1.5em;
-  font-weight: 800;
-  line-height: 1.5em;
-}
-#text-header h1 span{
-  color: #334960;
-  opacity: 0.7;
-}
-#text-header h1 sup{
-  opacity: 0.5;
-}
-#text-header:after{
-  width: 100%;
-  height: 3px;
-  border-bottom: 1px solid #ddd;
-  margin-top: 15px;
-  content: '';
-  display: block;
-}
-
-.box{
-  padding-bottom: 10px;
-  margin-bottom: 25px;
-}
-.box h2{
-  color: #227c74;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-#awards,
-#education{
-  margin-top: 20px;
-  margin-bottom: 0;
-  position: relative;
-  padding: 1em 0;
-  list-style: none;
-}
-#awards:before,
-#education:before {
-  width: 5px;
-  height: 100%;
-  position: absolute;
-  left: 35px;
-  top: 0;
-  content: ' ';
-  display: block;
-  background: #32475c;
-  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
-  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-}
-#awards li,
-#education li{
-  width: 100%;
-  z-index: 2;
-  position: relative;
-  float: left;
-}
-#awards .year,
-#education .year{
-  width: 14%;
-  background: #fff;
-  padding: 10px;
-  font-weight: 700;
-  display: inline-block;
-}
-#awards .description,
-#education .description{
-  width: 83%;
-  display: inline-block;
-  background: #eee;
-  margin-bottom: 10px;
-  position: relative;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-}
-#awards .description:after,
-#education .description:after {
-  content: '';
-  position: absolute;
-  top: 15px;
-  right: 0;
-  left: -16px;
-  height: 0;
-  width: 0;
-  border: solid transparent;
-  border-right-color: #eee;
-  border-width: 8px;
-  pointer-events: none;
-}
-#awards .description h3,
-#education .description h3{
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
-  font-weight: 700;
-}
-#awards .description p,
-#education .description p{
-  margin-top: 5px;
-  padding: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
-.job{
-  margin-bottom: 15px;
-}
-.job .details {
-  margin-left: 3%;
-  width: 95%;
-  padding: 10px;
-  margin-bottom: 10px;
-  background: #eee;
-  border-bottom: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-}
-.job .where{
-  font-size: 1.2em;
-  font-weight: bold;
-}
-.job .year{
-  opacity: 0.7;
-}
-.job .profession{
-  font-size: 1.2em;
-  font-weight: bold;
-}
-.job .description{
-  line-height: 1.5em;
-}
-.job .highlights{
-  padding: 5px 0;
-  font-weight: bold;
-}
-.job .job-details {
-  padding-left: 5%;
-  width: 100%;
-}
-.publication {
-  margin-bottom: 0;
-}
-.publication .name{
-  font-size: 1em;
-  font-weight: bold;
-}
-.publication .year{
-    opacity: 0.7;
-}
-.publication p{
-  margin: 0;
-  padding-top: 10px;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 
-.contact-item{
-  width: 100%;
-  float: left;
-}
-.contact-item .icon{
-  padding: 10px;
-  border-right: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  color: #32475c;
-  background: #eee;
-}
-.contact-item:last-child .icon{
-  border-bottom: none;
-}
-.contact-item .title{
-  width: 80%;
-  width: calc(100% - 55px);
-  font-weight: 700;
-  opacity: 0.9;
-}
-.contact-item .title.only{
-  margin-top: 10px;
-}
-.contact-item .description{
-  width: 80%;
-  width: calc(100% - 55px);
-  color: #334960;
+body {
+    line-height: 1;
 }
 
-.item-interests,
-.item-skills{
-  height: 30px;
-  color: #334960;
-  padding: 5px 10px;
-  margin-bottom: 5px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 1.1em;
-  font-weight: 600;
-}
-.interest,
-.skill{
-  color: #fff;
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 5px 10px;
-  background: #32475c;
-  position: relative;
-  font-size: .85em;
-}
-.skill-level {
-  background-color: #227c74;
-  border-radius: 4px;
-  color: #fff;
-  padding: 1px 8px;
-  font-size: .75em;
-  position: absolute;
-  margin: 1px 10px;
-}
-
-#language-skills .skill{
-  margin: 10px 0;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #eee;
-}
-
-    </style>
-    <style type="text/css" media="print">
-    body {
-  font-size: .95em;
-  -webkit-print-color-adjust: exact;
-}
-
-a[href]:after {
-  content: none !important;
-}
-
-#photo{
-  display: none;
-}
-
-.box {
-  margin-bottom: -10px;
+ol,
+ul {
+    list-style: none;
 }
 
 blockquote,
-#education,
-#awards,
-.contact-item,
-.publication,
-.skills,
-.interests {
-  page-break-inside: avoid;
+q {
+    quotes: none;
 }
 
-.col-sm-5{
-  width: 40%;
-  padding: 0 15px;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
 }
 
-.col-sm-7{
-  width: 60%;
-  padding: 0 15px;
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-.skills .col-sm-offset-1,
-.interests .col-sm-offset-1{
-  margin-top: -10px;
-  margin-bottom: 5px;
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 13px;
+    color: #40484f;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.46153846;
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
 }
 
-#education {
-  margin: 0;
-  margin-bottom: -20px;
-}
-#awards:before,
-#education:before {
-  background: none;
+p {
+    display: block;
+    margin-bottom: 1.3em;
 }
 
-#awards .description,
-#education .description,
-.job .details {
-  border: 1px solid #eee;
-}
-.publication,
-.publication .panel-heading,
-.publication .name{
-  margin: 0;
-  padding: 0 5px;
-  border: none;
-}
-.publication .panel-body {
-  padding: 0 10px;
-  margin: 0;
+a {
+    color: #0095ff;
+    text-decoration: none;
 }
 
-.badge {
-  margin: 0;
+a:hover {
+    color: #0c65a5;
+    text-decoration: underline;
 }
 
-.list-group-item{
-  border: none;
-  margin: 0;
-  padding: 5px 15px;
+ul {
+    margin-top: 1rem;
 }
-.list-group-item:after{
-  content: '';
-  position: absolute;
-  top: 8px;
-  right: 0;
-  left: -1px;
-  height: 0;
-  width: 0;
-  border: solid transparent;
-  border-right-color: #999;
-  border-width: 4px;
-  pointer-events: none;
- }
 
-    </style>
+li {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 1.3em;
+}
+
+.highlights>li>p {
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.67rem;
+}
+
+h3 {
+    font-size: 1.27rem;
+}
+
+em {
+    color: #757575;
+}
+
+blockquote {
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+/* main container */
+
+#resume {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* every section wrapper */
+
+.section {
+    margin-bottom: 1rem;
+}
+
+section .location {
+    margin-right: .5em;
+    color: #606d76;
+    font-weight: 700;
+}
+
+#contact {
+    margin-top: .5rem;
+}
+
+#profiles .item {
+    padding: 0;
+}
+
+#header>#profiles,
+#header>#contact,
+#skills,
+#languages,
+#interests {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+#header>div {
+    line-height: 1.5;
+}
+
+#header>div>div {
+    margin-right: 1.2em;
+}
+
+#header h1.name {
+    font-size: 2.8rem;
+    font-weight: 100;
+    line-height: 100%;
+}
+
+#header h2.label {
+    color: #202931;
+    font-size: 1.47rem;
+    font-weight: 300;
+}
+
+#header .picture {
+    width: 11em;
+    float: right;
+    border-radius: 4px;
+}
+
+.main-summary {
+    background: #f1f8ff;
+    padding: 1.2em 1em;
+    margin-top: 1rem;
+}
+
+.main-summary p {
+    margin: .15em 0 0;
+}
+
+h2.section-title {
+    display: inline-block;
+    background: #fff;
+    padding: 0 1em 0.3em 0;
+    color: #ff6d1f;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    font-size: .9rem;
+}
+
+.section>header {
+    position: relative;
+}
+
+.fa {
+    margin-right: 0.25em;
+}
+
+.section>header::after {
+    position: absolute;
+    left: 0;
+    top: .7em;
+    height: 1px;
+    background: #ccc;
+    content: "";
+    width: 100%;
+    z-index: -100;
+    display: block;
+}
+
+.section.main-summary>section {
+    margin: 0;
+}
+
+.section>section>header {
+    font-size: 1.38rem;
+    position: relative;
+    margin-top: .7em;
+}
+
+.section>section>header:first-of-type {
+    margin: 0;
+}
+
+.section>section>header .space-left {
+    position: absolute;
+    left: -1.56rem;
+    top: 5px;
+    color: #aaa;
+    line-height: 1;
+    opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+    display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+    font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+    content: "at "
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+    color: #606d76;
+    font-weight: 400;
+}
+
+.section header .date {
+    font-size: 1rem;
+    display: inline-table;
+    padding: .1em 0;
+    font-weight: 600;
+}
+
+ul.keywords,
+ul.courses {
+    margin-top: .5em;
+}
+
+ul.keywords li,
+ul.courses li {
+    display: inline-block;
+    margin: 2px 2px 2px 0;
+    padding: 4px 5px 5px;
+    font-size: .9rem;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #3e6d8e;
+    background-color: #dfeaf1;
+    border: 0 solid #dfeaf1;
+    white-space: nowrap;
+}
+
+ul.keywords li:hover,
+ul.courses li:hover {
+    background: #dfeaf0;
+}
+
+.item {
+    padding: .5em 0;
+}
+
+.gpa {
+    padding-bottom: .5em;
+}
+
+.fa.social {
+    font-size: 1.1em;
+}
+
+
+/* Social Media Brand Colors */
+
+.google-plus {
+    color: #dd4b39;
+}
+
+.tumblr {
+    color: #32506d;
+}
+
+.foursquare {
+    color: #0072b1;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.linkedin {
+    color: #007bb6;
+}
+
+.pinterest {
+    color: #cb2027;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.instagram {
+    color: #517fa4;
+}
+
+.twitter {
+    color: #00aced;
+}
+
+.soundcloud {
+    color: #ff3a00;
+}
+
+.wordpress {
+    color: #21759b;
+}
+
+.youtube {
+    color: #bb0000;
+}
+
+.github {
+    color: #171515;
+}
+
+.stack-overflow {
+    color: #828386;
+    position: relative;
+}
+
+.flickr {
+    color: #ff0084;
+}
+
+.stack-overflow::after {
+    position: absolute;
+    left: 0;
+    content: '\f16c';
+    color: #f68a1f;
+    overflow: hidden;
+    height: 100%;
+}
+
+.telegram {
+    color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+    width: 15em;
+    padding: 0 .5em .5em 0;
+    border-bottom: none;
+}
+
+#skills .item {
+    width: 16em;
+}
+
+#skills .item .keywords {
+    width: 15em;
+}
+
+
+/* Skill chart */
+
+.level {
+    margin-bottom: .5em;
+}
+
+.level .bar {
+    border: 1px solid #ddd;
+    display: block;
+    width: 10em;
+    height: 5px;
+    position: relative;
+}
+
+.level .bar::after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    background: black;
+    height: 5px;
+}
+
+.level.beginner .bar::after {
+    background: #EB5F51;
+    width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+    background: #ffdf1f;
+    width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+    background: #5CB85C;
+    width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+    background: #59C596;
+    width: 10em;
+}
+
+#references .item {
+    padding-left: .5em;
+    border-left: 5px solid #ff6d1f;
+}
+
+.toggle-item {
+  visibility: hidden;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.display {
+    display: block;
+    opacity: 1 !important;
+}
+
+.margin1 {
+    margin-bottom: .5rem;
+}
+
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+    #resume {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+    li {
+        margin-left: 1.5em;
+    }
+    #resume {
+        width: 820px;
+        margin: 2rem auto;      
+    }
+    .section>section>header .space-left {
+        opacity: 1;
+        cursor: pointer;
+    }
+    .section>section {
+        margin-left: 1.67rem;
+    }
+    .toggle-item {
+        transform: translate(-9999px);
+    }
+    .toggle-item+label {
+        display: block;
+        margin-top: -16px;
+    }
+    .toggle-item:checked+label:after {
+        content: '\f0d7';
+    }
+    .toggle-item+label:after {
+        float: left;
+        cursor: pointer;
+        margin-left: -20px;
+        color: #aaa;
+        font-size: 16px;
+        content: '\f0da';
+        font-family: Fontawesome;
+    }
+    .toggle-item~.item {
+        height: 0;
+        opacity: 0;
+    }
+    .toggle-item:checked~.item {
+        height: auto;
+        opacity: 1;
+        transition: all .5s linear;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "| ";
+    }
+    .header-left {
+        float: left;
+        width: 70%;
+        word-break: normal;
+    }
+    .section header .date {
+        float: right;
+        padding: .2em;
+    }
+    .display {
+        display: none;
+    }
+    .display:not(.none) {
+        display: block;
+    }
+}
+
+@media print {
+    #resume {
+        margin: 0;
+        padding: 0;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        line-height: 1.3;
+        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
+    }
+    @page {
+        margin: 1cm 1.4cm;
+    }
+    .item-count {
+        display: none;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "at ";
+    }
+    .main-summary {
+        padding: 2rem 0;
+    }
+    .section {
+        margin: .8rem 0;
+        padding: 0;
+    }
+    .section header {
+        padding-bottom: .15rem;
+    }
+    .section .location {
+        padding-bottom: .15rem;
+    }
+    .stack-overflow::after {
+        content: "";
+    }
+    .fa.social {
+        color: #828386;
+    }
+    ul {
+        margin-top: .4em;
+    }
+    ul,
+    li {
+        padding: 0;
+    }
+    ul.keywords li,
+    ul.courses li {
+        margin: 0;
+        padding: 0;
+        font-size: .8rem;
+        text-transform: lowercase;
+    }
+    ul.keywords li::after,
+    ul.courses li::after {
+        padding: 0 0 0 .1rem;
+        content: " |";
+    }
+    ul.keywords::before,
+    ul.courses::before {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    ul.keywords::before {
+        content: "Skills acquired: ";
+    }
+    #skills .keywords::before {
+        content: '';
+    }
+    .section p {
+        margin: 0;
+        padding: 0;
+    }
+    ul.courses::before {
+        content: "Major courses: ";
+    }
+    ul.keywords li:last-of-type::after,
+    ul.courses li:last-of-type::after {
+        content: "";
+    }
+    .level em {
+        font-style: normal;
+        padding: .1em 0;
+    }
+    .level .bar {
+        display: none;
+    }
+    #profiles .item {
+        padding: 0;
+    }
+    .item.display {
+        display: block;
+        opacity: 1 !important;
+    }
+}
+
+  </style>
+  
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="photo-header" class="text-center">
-            <!-- PHOTO (AVATAR) -->
-            <div id="photo">
-              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;cf82f0e44975003110d3553b3fed8264?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<div>
+    			<h1 class="name">Gasmi Aboubakr</h1>
+    			<h2 class="label">Software Solutions Architect</h2>
+    		</div>
+    		
+    		<span class="location">
+    			<span class="address">250 Log BT L Cage 2 Porte 7,</span> 
+    			<span class="postalCode">16002,</span> 
+    			<span class="city">Algiers,</span> 
+    			<span class="region">Chéraga</span> 
+    			<span class="countryCode">DZ</span> 
+    		</span>
+    		
+    
+    		<div id="contact">
+    			<div class="website">
+    				<span class="fa fa-external-link"></span>
+    				<a target="_blank" target="_blank" href="https://g13013.github.io">https://g13013.github.io</a>
+    			</div>
+    			<div class="email">
+    				<span class="fa fa-envelope-o"></span>
+    				<a href="mailto:g13013@gmail.com">g13013@gmail.com</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fa fa-mobile"></span>
+    				<a href="tel:(213) 554-389015">(213) 554-389015</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-twitter twitter social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://twitter.com/g13013">g13013</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/aboubakr-gasmi-15028716">aboubakr-gasmi</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/g13013">g13013</a>
+    					</span> 
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section main-summary">
+    		<section>
+    			<div><p>Aboubakr is a self-taught passionate developer and architect, he loves creation, innovation, system architectures & automation, he also enjoys all precious moments with his family and friends<br><br><a target="_blank" href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-02-20&ci=AWS01150173"><img alt="AWS Certified Architect Associate" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH5AIaBxokjQQfIAAADL9JREFUaN7NmntwXNV5wH/nvnbvPvRY7a6ELFuyLEuyZcuWnziWGUIwJTxCoKWp22LodBo6NDQJDM1kJp3+0XY6bZO2tE3SKe00DuExJUAmQAaCCQUbAzYBYhtbQrJly7ak1XPfd3fv3Xv6h2RFkmVbLyZ8/+zd3XvPub/zfd/5vnO+I/gEZN03Bi9erpGSvwCKQvBtAR0SOP730SXvU3xCACEp+X1X8mclpmgCSFqyQxF8TwieAkZYYqAlAZkC4AFuKro87NHZuaPB0PbuMpESfnjQ4p3ugpO3OaQq/BPwCpBbKqBFg0xAKMBG1+VrQnBnU7UWuGenye71Hvye8S4yecmrx/P86KBFR7+TcV1+qir8M/BLwF0szIJBpmihRkr+xJX8cVWpsuyubV5+Z5tJVaky63OxhMtzR3I8e8Sib8wdEIJ9iuA/DE2cKThywdqZN8gUgKCE33Zdvhrwig2fa/GIe9pNmqs1lKu0KiV8PODwxFsWPz+Wl0lLnlQE/y4ETwNjMH9zmxfIBIQOtBddHtZVbmyr0z337vKxs1HH0OY3LnYRDp8qsO+AxeFTBbvgcHDCf14F8vMBmlPPEwACaHIlDwJ7VkbU8j07TG5t81DmU+bSzGUlnZO8cizPE29ZfNzvpKXkeUXhUeAD5ug/VwSZYkYRKdnrSh4IBZT629s87NlhsiKsLgpgpgzEXX582OK593IMxN0+IfgfRfCfQC9cWTuzgkwBMIFbii4PeXWxvb3JUO/dZbKxVkedUIJt24zFE3i9XnymiStddE0jny/g8RgUCjaKqpBIpABJqLwMRVHAisH5VyC0HkIbQYy/ipTQ0e/wo4MW+4/nZSonP1IE/yoEzwDxywGJy0AowJaiy0Oqwu1rl2m+vbt83LDWwDSmP/KLNw/x4bETJBIptrStZyye4LrPbOexfU/x4P338cLLr+H3mZzu6aWyMsIXbrmJyuIxePebEDsMpatg7f3Q8hVQjMl2C47knW6bHx7I8l6PbRcc3pjwn9eAwkwYbSqAHL+scyX3S8kfLStXKu/ebnLnVi+R4Ox+0LCyFl3TeOW1N4kNDnO+r5+A30/v+T7e++AoscEhKqNhbMdh++YNlJeVwi9fhP63IdwKVe3Q9TSs3gve8GS7hia4rtlgY63Oy0dz+pOHrBu7B4rbJDynCB5d943Bo0zxH3WqKQm4VUp+EPSKL96+yRv45h0Bdq/7dVCbKfl8ge899jiGodPXH2NVfR3FosvxE51cu7WNQ4ffZ01TA1+663YAfvyTn1FSWsIK5TiYUai/G049BdKFpvtA813Sh0cXtNToXNds4NWF59xocWO2IL8ADAJHo+2PMPjWPzJtmF3JZ8v9ytq/vjso/vLOII1V2kXTnVUkkoJjk0ilUVQV13VpaV5N1sqx89rNJJMp1rc0c/xkJ0PDI/h8JrqmQfVnwbHgV98Gawjq7wI9yJWkulzlz3/Lzz/sKSESVKpdl62zmtYECCWmYOMKHX0OE5LX4+HBL99HX3+MO27ZjWl6MXSdtc2riYRD/O1fPUI4FCKdySCEwtZNrTTU14HSCiXNcOZ5iGxBVu5EKNpV+xMCVkVVAqagP8E0LUx7WkDRleNAc5VopIJopGLab1XeCK4rKS0JYts2AD7Tg9frIZXOUFoSRJbUI1ofBuDc+QuEQyF8PnNunc7yfjOHYT4MAPSeu0AunycY8DM8MkqovIxMJosQgrPnLtC4up5CweZs73mikTBIGB4ZIZfLE42EiQ0OERscpmxTyZz7nDD3aW6xqJBsWTkGh4ZZXlPNqZ6z2LbD+Qv9JFNpopEwofIyVEUll8tRVRklGgnT1z/AhQv9ZDJZTnZ2Ea6oIFxRjivnNoSKAEUIkEwz/qsb5hVEVRWklCQSSQxdx+MxiEQqSKcymKaJ67rYto2h66iKitfrwev1AhCNhMnl84yOjmFZOYSYY552mdsWBWIYBo0N9WSyFmuaVxOPJykJBglXhDAMnfq6FSiqitfjQUqJpmmUlATJZrLkCwWuqapkLB4nGqkg4Pcv5lUWBwJQWlpCaem4fQcDgWn/hULll9yvo+H1eCa/V1UuzXJ3cWnrp0gWDJLP58lkssgpTuo4DmPxxLTffn1/gXgi8ekCGRwa5sn/fZ79r79JKpUml8uRzVqMjI7xs5f3k88XsB2HQqHAQGyIt999j/5YjBMdXTiOw+joGLbtUCjYJJMpMpkstu0wOhbHtp0Fgcz0ESnleCp9JUmnMwzEhmhavYp0Jsv+F9+gWHRZ09xIvlDgw6PHx184nqCQL3Ci82NuuK6dVDrN/tcPcO78BWqWVVMsFhkeGQUgEq5gcGiY2z6/m0i4gvnKTI04UsqrzunLa5Zx2+dv5K13jvD6GwcRQqEiVM7pnrO4UhJPJBkcGiE2OERpaZDammWUlZXQ1z9Az5le1q1t5kzvOWJDwzSsWkkul6OstATLyk2CLRZkTlEpkUzS1X2aymiEzW2t6LpGPJFgc1srZaUlBIMBEskkQb+f2hXLUTWNZCpNfV0tG1tbONnZTeu6tayuryNcEWJlXS0ej4dgwI+qXjnJE3Bxc2OaNS1o+q0IlXPzTTegaRqGrrOqvg7XlXg8Bg31dQgh2La5DUVVUIRg1crayYAnhJiA15FyPN1obKhHSknrujUYhnHFvoUQS5eiCCHwmSZW1iJfKKBPRHUAVVVRFIXY4BC53HjEHh4ZZXQsPjmbGYaBEAJFEROfChLQtLmN62zBfcEBMZ3J8F8/eIJtW9rYsX0rY/E4uq5j2za24/D6m2+xsm4Fa5tWExscwnGK/N+BQ2zfugm/z0cqlab6mipGx8awbZtjH3UQKi9j25a2uacrSwFyuqcXVdPoPn2GSCTMy6++zvqWZrpPnWHTxvUUCjYdnV10dHZRs6yafD7PiZOdVFVG6fi4Gytr0dS4ijNnz7Nh/Vo6u7qpXV6D67pX9ZPZZMEB8dhHJ9BUlb7+GD1neomEK6hZVo2ULg31dWiaSsvaZqSUZLJZDMMgEg4T8PsZGRljWXUVrisBSePqVVRFo1SEQguCWLBGbNuhdnkNt928mzO958hmLaoqI9StqKF+ZS3HT3TS3NhAVWUUIQQBvw+v10swGKBYLHL9rh2MjI6xvqUZXdM42dnFxtYW+gZiFCay5cWCzMk4dV2j/TPbAdiwvmXafzd97vpp32tX1ExeN9TXXdLWsuprJq+bm1YvSBtwqWnNe6n7aREFpu3cFeeSoixU5FI1PIvdTN98EJB3oD/usrxi7k53uucsiqKwvKYa2xlP+lRFwXac8cDnumSyFrlcntKSIELA4PAIVdEoxWIR0/TOacqVwNnhIilLIgT6BJK8BEQRdCey7tC3nklF7t7u5YtbLr/DeFGcYpFTEyDDI6OoqkIqlSEUKiORSKJqKtKVlJWVks/n6T13nqxlkUplGKwaZnhklLYN6666wBpOuTz/Xo5n3rXoj7tDqsI7TEmpJoc92v4IwEngQCIrS46ctlceOW3rpiGoqVDR1dlHbHQszvDwCAjQdZ14IonHYzAQG8Lr9ZCz8hTdIqFQOYNDwyQSSTRNIxDwY9s2QownoebEWn6mWAXJq8cK/N0LaV78IJ9NZOXziuCrwE8BedEtpr3djF34W4suX/fqYvvORl3du8tHW52ONkNB+Xx+wqckyWQaxLiPeTwGlmXh9/koui6u62IYBtlsFtM0KToOijq+wxIqL0OfMeUWXfhVr82+AxYHOwtFqyAPT2xivwRYMH1X/mplhYiU/KEreaDcLxpu2ehlzw6TlVF1aevaM6R3pMjTb1u88H6ekbTbowi+LwT7GN/vnVtZ4TJAja7kASR/sLxCDf/utV7u2OylIrC0S/5E1uWlD/M8eciiZ6g4BjytCP4N6GCKGc0m8ym9acC1EzWTm9cv18x72n1cv+bSmsl8peBIDnXZ7Hszy/tn7IJdZL+q8B3gAGAvuvQ2CwyAX8JtrsvXTUNsaW8y1HvbTTZMqWLNVS5Wpx6fqE6lc/KoovCogGeBJCxxMfQyQFEpudeV/GkooNTf1ubh93aY1M2xrhhLjNcLnz0yWS/8b0XwGHBuPgALBpkBdLHS+xVgT21YDX3pWpPbN3kI+WdXTyYv2X88z+MHLTr6nLSU/ERR+BfmUcFdUpAZQBqws+jykKZyU+ty3bt3l3mxygSA48L7PTb7DmQ51DV5JuU7wM+B3G/sCMcsMAABCXe4Ll/zGWLTdWsMZW+7SdBUePpti5c+zBHPyK6JUw5PsISnhD6pY05VUnKfK/lyOKisNDToj7tDwBOK4LtA91IBfCIgM4AEsMGVfAuIKoK/AX4BOJ/EwbP/B7Joa06xclULAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTAyLTI2VDA3OjI2OjM2LTA1OjAw21x3CAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wMi0yNlQwNzoyNjozNi0wNTowMKoBz7QAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC" /></a></p></div>
+    		</section>
+    	</section>
+    
+    <section class="section margin1">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Languages
+    			</h3>
+    			 
+    			<div class="level intermediate/master">
+    				<em>intermediate/master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>JavaScript</li>
+    				<li>Golang</li>
+    				<li>Ruby</li>
+    				<li>PHP</li>
+    				<li>Python</li>
+    				<li>C++</li>
+    				<li>...</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Web Development
+    			</h3>
+    			 
+    			<div class="level intermediate/master">
+    				<em>intermediate/master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>HTML5</li>
+    				<li>CSS3</li>
+    				<li>Javascript</li>
+    				<li>Bootstrap</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Frameworks &amp; Platforms
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>EmberJS</li>
+    				<li>Angular</li>
+    				<li>ExtJS4/5</li>
+    				<li>ExpressJS</li>
+    				<li>Koa</li>
+    				<li>Hapi</li>
+    				<li>NodeJS</li>
+    				<li>Mac</li>
+    				<li>Linux</li>
+    				<li>...Windows</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				DevOps &amp; Testing
+    			</h3>
+    			 
+    			<div class="level intermediate/master">
+    				<em>intermediate/master</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Rake</li>
+    				<li>QUnit</li>
+    				<li>Mocha</li>
+    				<li>RSpec</li>
+    				<li>JUnit</li>
+    				<li>Cucumber</li>
+    				<li>Selenium</li>
+    				<li>Gitlab</li>
+    				<li>Github</li>
+    				<li>Docker</li>
+    				<li>Swarm</li>
+    				<li>GruntJS</li>
+    				<li>BroccoliJS</li>
+    				<li>EmberCLI</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Architecture
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>DDD</li>
+    				<li>Software Design</li>
+    				<li>Microservices</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Others
+    			</h3>
+    			 			<ul class="keywords">
+    				<li>Agile</li>
+    				<li>Scrum</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(8)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+            <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="work-item-0"></label>
+    
+    			<header>
+    				<div class="position">Software Architect</div>
+    				<div class="company">Emploitic SPA.</div>
+    				<div class="date">
+    				  <span class="startDate">March 2018</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Emploitic is a multinational company based in Algiers (Algeria) and is present in 5 countries by January 2020. mainly providing HR solutions and owns emploitic.com, novojob.com, talenteo.com, kherdja.com</p></p>
             </div>
-            <div id="text-header" >
-              <h1>Gasmi Aboubakr<br><span>Full Stack Developer</span></h1>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-7">
-          <!-- ABOUT ME -->
-          <div class="box">
-            <h2><i class="fa fa-user ico"></i> About</h2>
-            <p>Aboubakr is a self-taught passionate developer, he loves creating things and automate whenever possible, he also enjoys the precious moments with his family and friends</p>
-          </div>
-          <!-- WORK EXPERIENCE -->
-          <div class="box">
-            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">Emploitic SPA.</div>
-                    <div class="year">March 2018 – Present</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Software Architect</div>
-                    <div class="description">
-                      Emploitic.com is a start-up based in Algiers (Algeria), recently launched two new products for the African continent Novojob.com and Talenteo.com
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Design future architecture, using containerized MicroServices (Docker/Kubernetes), communicating using REST, GRPC & PROTOBUF.</li>
-                        <li class="list-group-item">Prepare the rewrite of of existing PHP services in Golang.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">Emploitic SPA.</div>
-                    <div class="year">April 2015 – March 2018</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Lead Developer</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Prepare the guidelines and lead the introduction and application of DevOps practices in the development process.</li>
-                        <li class="list-group-item">Prepare for the switch to a fully automated deployment pipeline.</li>
-                        <li class="list-group-item">Implemeted the automated deployment of our 3 products.</li>
-                        <li class="list-group-item">Design and implementation of Talenteo. REST API v2 using DDD patterns.</li>
-                        <li class="list-group-item">Migration of our Java based functional test to Ruby, using cucumber.</li>
-                        <li class="list-group-item">Prepare for the migration of our product's front-end to a single page application.</li>
-                        <li class="list-group-item">Prepare for the switch of our products backend to a microservices architecture.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">Emploitic SARL</div>
-                    <div class="year">February 2013 – April 2015</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Lead Front-End Developer</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Code reviews.</li>
-                        <li class="list-group-item">Manage and prioritize Front-End tasks and stories.</li>
-                        <li class="list-group-item">Initiated 3 internal Ruby projects used enhance the developer experience allowing for using our functional tests written in (Java/Cucumber) on the CI and developer machine with simple commands.</li>
-                        <li class="list-group-item">Designed the architecture and configuration of the company's CI platform for our products, with Gitlab (in-promise) as the CVS.</li>
-                        <li class="list-group-item">Configured and installed the entire CI platform hosted in multiple local/remote CoreOs/Ubuntu machines, backed by a total of 14 CI services.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">Emploitic SARL</div>
-                    <div class="address">
-                      <a href="http:&#x2F;&#x2F;www.emploitic.com&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;www.emploitic.com&#x2F;</a>
-                    </div>
-                    <div class="year">February 2013 – April 2015</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Front-End Developer</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Development of a single app multi-CV editing application using EmberJS, with a custom simplified Data layer (before Ember-Data v1 was released).</li>
-                        <li class="list-group-item">Facebook single page job searching application using jquery, api backed by php.</li>
-                        <li class="list-group-item">Initiated the company's internal JavaScript library project Elib-Core.</li>
-                        <li class="list-group-item">Initiated and contributed to the internal HTML components (widgets) project on top of the internal library Elib-Core.</li>
-                        <li class="list-group-item">Introduced assets and product build tools to the company.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">ImaginePartners</div>
-                    <div class="year">November 2012 – February 2013</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Front-End Developer</div>
-                    <div class="description">
-                      Software Development and Consulting company based in Algiers
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">GMS (Mercedes-Benz Algeria)</div>
-                    <div class="address">
-                      <a href="http:&#x2F;&#x2F;www.gmsalgerie.com&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;www.gmsalgerie.com&#x2F;</a>
-                    </div>
-                    <div class="year">December 2007 – September 2008</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">CTO</div>
-                    <div class="description">
-                      GMS was the exclusive representant of Mercedes-Benz in Algeria, since 2010, it also represent various chinese and american cars brands like Dodge, Jeep, Chrysler and GreatWall..
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">Budget Management.</li>
-                        <li class="list-group-item">Development of the company's Sales Management System Using ExtJS.</li>
-                        <li class="list-group-item">Installation & configuration of multiple Windows AD Servers hosted on HyperV.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">GMS (Mercedes-Benz Algeria)</div>
-                    <div class="address">
-                      <a href="http:&#x2F;&#x2F;www.gmsalgerie.com&#x2F;" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;www.gmsalgerie.com&#x2F;</a>
-                    </div>
-                    <div class="year">September 2008 – December 2011</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="job-details col-xs-11">
-                    <div class="profession">Engineer</div>
-                    <div class="description">
-                      
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        <li class="list-group-item">User assistance & PC's maintenance.</li>
-                        <li class="list-group-item">Network troubleshooting and maintenance.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-5">
-          <!-- CONTACT -->
-          <div class="box clearfix">
-            <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
-              <div class="title pull-right">250 log Bt L cage 2</div>
-              <div class="title  pull-right">Algiers, Cheraga 16002 DZ</div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
-              <div class="title only pull-right">(213) 554-389015</div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="mailto:g13013@gmail.com" target="_blank">g13013@gmail.com</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
-              <div class="title only pull-right"><a href="https:&#x2F;&#x2F;g13013.github.io" target="_blank">https:&#x2F;&#x2F;g13013.github.io</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
-              <div class="title pull-right">Twitter</div>
-              <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;g13013" target="_blank">g13013</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
-              <div class="title pull-right">Linkedin</div>
-              <div class="description pull-right"><a href="https:&#x2F;&#x2F;dz.linkedin.com&#x2F;in&#x2F;aboubakr-gasmi-15028716" target="_blank">aboubakr-gasmi</a></div>
-            </div>
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span></div>
-              <div class="title pull-right">Github</div>
-              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;g13013" target="_blank">g13013</a></div>
-            </div>
-          </div>
-          <!-- EDUCATION -->
-          <div class="box">
-            <h2><i class="fa fa-university ico"></i> Education</h2>
-            <ul id="education" class="clearfix">
-              <li>
-                <div class="year pull-left">2004 2009</div>
-                <div class="description pull-right">
-                  <h3>Université des Sciences De Gestion</h3>
-                  <p><i class= "fa fa-graduation-cap ico"></i> Bachelor</p>
-                  <p>Finance</p>
-                </div>
-              </li>
+            <ul class="highlights">
+                <li><p>Design architectures of emploitic.com, novojob.com & talenteo.com (API first) using rechnologies like REST, GRPC & PROTOBUF.</p></li>
+                <li><p>Leading & coordinating the move to containerized development & production environements (Docker/Swarm/Kubernetes).</p></li>
+                <li><p>Designed, implemented & deployed (in golang) of internal mailing microservices that auto-handles bounce messages in real-time (Barid/Bouncestash/Bouncebeat).</p></li>
+                <li><p>Prepare the migration of some existing PHP services to Golang.</p></li>
             </ul>
-          </div>
-          <!-- SKILLS -->
-          <div class="box">
-            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Languages
-                  <span class="skill-level">intermediate&#x2F;master</span>
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">JavaScript</span>
-                <span class= "skill badge">Ruby</span>
-                <span class= "skill badge">PHP</span>
-                <span class= "skill badge">Python</span>
-                <span class= "skill badge">C++</span>
-                <span class= "skill badge">...</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Web Development
-                  <span class="skill-level">intermediate&#x2F;master</span>
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">HTML5</span>
-                <span class= "skill badge">CSS3</span>
-                <span class= "skill badge">Javascript</span>
-                <span class= "skill badge">Bootstrap</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Frameworks &amp; Platforms
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">EmberJS</span>
-                <span class= "skill badge">Angular</span>
-                <span class= "skill badge">ExtJS4/5</span>
-                <span class= "skill badge">ExpressJS</span>
-                <span class= "skill badge">Koa</span>
-                <span class= "skill badge">Hapi</span>
-                <span class= "skill badge">Ruby On Rails</span>
-                <span class= "skill badge">NodeJS</span>
-                <span class= "skill badge">Mac</span>
-                <span class= "skill badge">Linux</span>
-                <span class= "skill badge">...Windows</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  DevOps &amp; Testing
-                  <span class="skill-level">intermediate&#x2F;master</span>
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">Rake</span>
-                <span class= "skill badge">QUnit</span>
-                <span class= "skill badge">Mocha</span>
-                <span class= "skill badge">RSpec</span>
-                <span class= "skill badge">JUnit</span>
-                <span class= "skill badge">Cucumber</span>
-                <span class= "skill badge">Selenium</span>
-                <span class= "skill badge">Gitlab</span>
-                <span class= "skill badge">Github</span>
-                <span class= "skill badge">Docker</span>
-                <span class= "skill badge">GruntJS</span>
-                <span class= "skill badge">BroccoliJS</span>
-                <span class= "skill badge">EmberCLI</span>
-                <span class= "skill badge">CoreOS</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Architecture
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">DDD</span>
-                <span class= "skill badge">Software Design</span>
-                <span class= "skill badge">Microservices</span>
-              </div>
-            </div>
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  Others
-                  
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "skill badge">Agile</span>
-                <span class= "skill badge">Scrum</span>
-              </div>
-            </div>
-          </div>
-          <!-- PUBLICATIONS -->
-          <div class="box">
-            <h2><i class="fa fa-book ico"></i> Publications</h2>
-            <div class="publication panel panel-default">
-              <div class="panel-heading">
-                <div class="name panel-title">Talk slides about EmberJS in Algiers Tech Meetup</div>
-              </div>
-              <div class="panel-body">
-                <div class="publisher"><i class= "fa fa-bookmark ico"></i> Github Pages</div>
-                <div class="year">01 October  2014</div>
-                <div class="address">
-                  <a href="http:&#x2F;&#x2F;g13013.github.io&#x2F;talks&#x2F;ember&#x2F;algiers_meetup&#x2F;index.html" target= "_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;g13013.github.io&#x2F;talks&#x2F;ember&#x2F;algiers_meetup&#x2F;index.html</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- LANGUAGES -->
-          <div class="box">
-            <h2><i class="fa fa-language ico"></i> Languages</h2>
-            <ul class="list-group">
-              <li class=" list-group-item">Arabic<span class="skill badge pull-right">Native speaker</span></li>
-              <li class=" list-group-item">French<span class="skill badge pull-right">Native speaker</span></li>
-              <li class=" list-group-item">English<span class="skill badge pull-right">Fluent speaker</span></li>
-              <li class=" list-group-item">Amazigh<span class="skill badge pull-right">Fluent speaker</span></li>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Lead Developer</div>
+    				<div class="company">Emploitic SPA.</div>
+    				<div class="date">
+    				  <span class="startDate">April 2015</span> 
+    					<span class="endDate">- March 2018</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <ul class="highlights">
+                <li><p>Prepare the guidelines and lead the introduction and application of DevOps practices in the development process.</p></li>
+                <li><p>Implemeted the fully automated deployment of emploitic.com, novojob.com & talenteo.com.</p></li>
+                <li><p>Design and implementation of Talenteo REST API v2 using DDD patterns.</p></li>
+                <li><p>Leading the migration of our Java based functional tests to Ruby, using cucumber.</p></li>
+                <li><p>Prepare for the migration of our product's front-end to a single page application.</p></li>
+                <li><p>Prepare for the switch of our products backend to a microservices architecture.</p></li>
             </ul>
-          </div>
-          <!-- HOBBIES -->
-          <div class="box">
-            <h2><i class="fa fa-heart ico"></i> Interests</h2>
-            <div class="interests clearfix">
-              <div class="item-interests">
-                  Entertainment
+        	</div>
+        </section>
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Lead Front-End Developer</div>
+    				<div class="company">Emploitic SARL</div>
+    				<div class="date">
+    				  <span class="startDate">February 2014</span> 
+    					<span class="endDate">- April 2015</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <ul class="highlights">
+                <li><p>Code reviews.</p></li>
+                <li><p>Manage and prioritize Front-End tasks and stories.</p></li>
+                <li><p>Initiated 3 internal Ruby projects used enhance the developer experience allowing for using our functional tests written in (Java/Cucumber) on the CI and developer machines with simple commands.</p></li>
+                <li><p>Designed the architecture and configuration of the company's CI platform for our products, with Gitlab (on-premises) as platform</p></li>
+                <li><p>Configured and installed the entire CI platform hosted in multiple local/remote CoreOs/Ubuntu machines, backed by a total of 14 CI services (for DNS, caching ...).</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Front-End Developer</div>
+    				<div class="company">Emploitic SARL</div>
+    				<div class="date">
+    				  <span class="startDate">February 2013</span> 
+    					<span class="endDate">- February 2014</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <ul class="highlights">
+                <li><p>Development of a SPA multi-CV editing application using EmberJS, with a custom simplified Data layer (before Ember-Data v1 was released).</p></li>
+                <li><p>Facebook single page job searching application using jquery, api backed by php.</p></li>
+                <li><p>Initiated the company's internal JavaScript library project Elib-Core.</p></li>
+                <li><p>Initiated and contributed to the internal HTML components (widgets) project on top of the internal library Elib-Core.</p></li>
+                <li><p>Introduced assets and product build atomation tools to the company.</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-4" type="checkbox" class="toggle-item" />
+            <label for="work-item-4"></label>
+    
+    			<header>
+    				<div class="position">Front-End Developer</div>
+    				<div class="company">ImaginePartners</div>
+    				<div class="date">
+    				  <span class="startDate">October 2012</span> 
+    					<span class="endDate">- February 2013</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Software Development and Consulting company based in Algiers</p></p>
+            </div>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-5" type="checkbox" class="toggle-item" />
+            <label for="work-item-5"></label>
+    
+    			<header>
+    				<div class="position">Front-End Developer</div>
+    				<div class="company">Logiccap</div>
+    				<div class="date">
+    				  <span class="startDate">January 2012</span> 
+    					<span class="endDate">- February 2012</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Software Development and Consulting company based in Algiers</p></p>
+            </div>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-6" type="checkbox" class="toggle-item" />
+            <label for="work-item-6"></label>
+    
+    			<header>
+    				<div class="position">CTO</div>
+    				<div class="company">GMS (Mercedes-Benz Algeria)</div>
+    				<div class="date">
+    				  <span class="startDate">September 2008</span> 
+    					<span class="endDate">- December 2011</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="http://www.gmsalgerie.com/">http://www.gmsalgerie.com/</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>GMS was the exclusive representant of Mercedes-Benz in Algeria, since 2010, it also represent various chinese and american cars brands like Dodge, Jeep, Chrysler and GreatWall..</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Budget Management.</p></li>
+                <li><p>Development of the company's Sales Management System Using ExtJS.</p></li>
+                <li><p>Installation & configuration of multiple Windows AD Servers hosted on HyperV.</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+    
+    			<header>
+    				<div class="position">Engineer</div>
+    				<div class="company">GMS (Mercedes-Benz Algeria)</div>
+    				<div class="date">
+    				  <span class="startDate">December 2007</span> 
+    					<span class="endDate">- September 2008</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <ul class="highlights">
+                <li><p>User assistance & PC's maintenance.</p></li>
+                <li><p>Network troubleshooting and maintenance.</p></li>
+            </ul>
+        	</div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(2)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Bachelor
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "interest badge">Cinema</span>
-                <span class= "interest badge">Documentaries</span>
-                <span class= "interest badge">Sport</span>
-                <span class= "interest badge">Mangas</span>
-                <span class= "interest badge">Video Games</span>
+              <div class="area">
+                Finance
+              </div>
+              <div class="institution">
+                Université des Sciences De Gestion
               </div>
             </div>
-            <div class="interests clearfix">
-              <div class="item-interests">
-                  Everyday&#39;s life
+            <div class="date">
+              <span class="startDate">
+              2004
+              </span>
+              <span class="endDate">
+              - 2009
+              </span>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Private school
               </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                <span class= "interest badge">New Technologies</span>
-                <span class= "interest badge">Science</span>
-                <span class= "interest badge">Familly</span>
+              <div class="area">
+                English level 4/5
               </div>
+              <div class="institution">
+                Hopeland Institute
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2008
+              </span>
+              <span class="endDate">
+              - 2010
+              </span>
+            </div>
+          </header>
+    
+    
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Awards</h2>
+      </header>
+      <section id="awards">
+        <section class="award-item">
+            <input id="award-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="award-item-0"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="title">
+                AWS Certified Solutions Architect Associate (SAA-C01)
+              </div>
+              <div class="awarder">
+                Amazon Web Service (AWS)
+              </div>
+            </div>
+            <div class="date">
+              2020
+            </div>
+          </header>
+          
+          <div class="item">
+            <div class="summary">
+              <p><p><p>The AWS Certified Solutions Architect – Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform.</p><p><a target="_blank" href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-02-20&ci=AWS01150173"><img alt="AWS Certified Architect Associate" src="data:image/png;base64,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" /></a></p></p></p>
+            </div>
+          </div>
+        </section>
+        <section class="award-item">
+            <input id="award-item-1" type="checkbox" class="toggle-item" />
+            <label for="award-item-1"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="title">
+                eMB Basic Training Wholesale Certificate
+              </div>
+              <div class="awarder">
+                Daimler (Mercedes-Benz)
+              </div>
+            </div>
+            <div class="date">
+              2011
+            </div>
+          </header>
+          
+          <div class="item">
+            <div class="summary">
+              <p><p>Stuttgart (Germany)</p></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Publications</h2>
+      </header>
+      <section id="publications">
+        <section class="publication-item">
+    
+          <header>
+            <div class="header-left">
+              <span class="name">
+              <span class="website">
+              <a target="_blank" href="http://g13013.github.io/talks/ember/algiers_meetup/index.html">Talk slides about EmberJS in Algiers Tech Meetup</a>
+              </span>
+              </span>
+              <span class="publisher">
+              in Github Pages
+              </span>
+            </div>
+            <span class="date">
+            1 October 2014
+            </span>
+          </header>
+    
+          <div class="item">  
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            Arabic
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        <div class="display">
+          <h3 class="language">
+            French
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            Amazigh/Kabyle
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            English
+          </h3>
+          <div class="item">
+            <div class="level fluency fluent speaker">
+              <em>Fluent speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Entertainment
+          </h3>
+          <ul class="keywords">
+            <li>Movies</li>
+            <li>Documentaries</li>
+            <li>Sports</li>
+            <li>Mangas</li>
+            <li>Video Games</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Everyday&#x27;s life
+          </h3>
+          <ul class="keywords">
+            <li>New Technologies</li>
+            <li>Science</li>
+            <li>Familly</li>
+          </ul>
+        </div>
+      </section>
+    </section>
 
   </body>
 </html>

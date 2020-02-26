@@ -1,0 +1,234 @@
+{
+  "basics": {
+    "name": "Gasmi Aboubakr",
+    "label": "Full Stack Developer",
+    "picture": "",
+    "email": "g13013@gmail.com",
+    "phone": "(213) 554-389015",
+    "website": "https://g13013.github.io",
+    "summary": "Aboubakr is a self-taught passionate developer, he loves creating things and automate whenever possible, he also enjoys the precious moments with his family and friends",
+    "location": {
+      "address": "250 log Bt L cage 2",
+      "postalCode": "16002",
+      "city": "Algiers",
+      "countryCode": "DZ",
+      "region": "Cheraga"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "g13013",
+        "url": "https://twitter.com/g13013"
+      },
+      {
+        "network": "Linkedin",
+        "username": "aboubakr-gasmi",
+        "url": "https://dz.linkedin.com/in/aboubakr-gasmi-15028716"
+      },
+      {
+        "network": "Github",
+        "username": "g13013",
+        "url": "https://github.com/g13013"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Emploitic SPA.",
+      "position": "Software Architect",
+      "startDate": "2018-03-01",
+      "summary": "Emploitic.com is a start-up based in Algiers (Algeria), recently launched two new products for the African continent Novojob.com and Talenteo.com",
+      "highlights": [
+        "Design future architecture, using containerized MicroServices (Docker/Kubernetes), communicating using REST, GRPC & PROTOBUF.",
+        "Prepare the rewrite of of existing PHP services in Golang."
+      ]
+    },
+     {
+      "company": "Emploitic SPA.",
+      "position": "Lead Developer",
+      "startDate": "2015-04-01",
+      "endDate": "2018-03-01",
+      "highlights": [
+        "Prepare the guidelines and lead the introduction and application of DevOps practices in the development process.",
+        "Prepare for the switch to a fully automated deployment pipeline.",
+        "Implemeted the automated deployment of our 3 products.",
+        "Design and implementation of Talenteo. REST API v2 using DDD patterns.",
+        "Migration of our Java based functional test to Ruby, using cucumber.",
+        "Prepare for the migration of our product's front-end to a single page application.",
+        "Prepare for the switch of our products backend to a microservices architecture."
+      ]
+    },
+    {
+      "company": "Emploitic SARL",
+      "position": "Lead Front-End Developer",
+      "startDate": "2013-02-01",
+      "endDate": "2015-04-01",
+      "highlights": [
+        "Code reviews.",
+        "Manage and prioritize Front-End tasks and stories.",
+        "Initiated 3 internal Ruby projects used enhance the developer experience allowing for using our functional tests written in (Java/Cucumber) on the CI and developer machine with simple commands.",
+        "Designed the architecture and configuration of the company's CI platform for our products, with Gitlab (in-promise) as the CVS.",
+        "Configured and installed the entire CI platform hosted in multiple local/remote CoreOs/Ubuntu machines, backed by a total of 14 CI services."
+      ]
+    },
+    {
+      "company": "Emploitic SARL",
+      "position": "Front-End Developer",
+      "startDate": "2013-02-01",
+      "endDate": "2015-04-01",
+      "website": "http://www.emploitic.com/",
+      "highlights": [
+        "Development of a single app multi-CV editing application using EmberJS, with a custom simplified Data layer (before Ember-Data v1 was released).",
+        "Facebook single page job searching application using jquery, api backed by php.",
+        "Initiated the company's internal JavaScript library project Elib-Core.",
+        "Initiated and contributed to the internal HTML components (widgets) project on top of the internal library Elib-Core.",
+        "Introduced assets and product build tools to the company."
+      ]
+    },
+    {
+      "company": "ImaginePartners",
+      "position": "Front-End Developer",
+      "startDate": "2012-11-01",
+      "endDate": "2013-02-01",
+      "summary": "Software Development and Consulting company based in Algiers"
+    },
+    {
+      "company": "GMS (Mercedes-Benz Algeria)",
+      "position": "CTO",
+      "website": "http://www.gmsalgerie.com/",
+      "startDate": "2007-12-01",
+      "endDate": "2008-09-01",
+      "summary": "GMS was the exclusive representant of Mercedes-Benz in Algeria, since 2010, it also represent various chinese and american cars brands like Dodge, Jeep, Chrysler and GreatWall..",
+      "highlights": [
+        "Budget Management.",
+        "Development of the company's Sales Management System Using ExtJS.",
+        "Installation & configuration of multiple Windows AD Servers hosted on HyperV."
+      ]
+    },
+    {
+      "company": "GMS (Mercedes-Benz Algeria)",
+      "position": "Engineer",
+      "website": "http://www.gmsalgerie.com/",
+      "startDate": "2008-09-01",
+      "endDate": "2011-12-01",
+      "highlights": [
+        "User assistance & PC's maintenance.",
+        "Network troubleshooting and maintenance."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Université des Sciences De Gestion",
+      "area": "Finance",
+      "studyType": "Bachelor",
+      "startDate": "2004-01-01",
+      "endDate": "2009-01-01"
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "Talk slides about EmberJS in Algiers Tech Meetup",
+      "publisher": "Github Pages",
+      "releaseDate": "2014-10-01",
+      "website": "http://g13013.github.io/talks/ember/algiers_meetup/index.html"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "intermediate/master",
+      "keywords": [
+        "JavaScript",
+        "Ruby",
+        "PHP",
+        "Python",
+        "C++",
+        "..."
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "intermediate/master",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "Bootstrap"
+      ]
+    },
+    {
+      "name": "Frameworks & Platforms",
+      "keywords": [
+        "EmberJS", "Angular", "ExtJS4/5",
+        "ExpressJS", "Koa", "Hapi",
+        "Ruby On Rails",
+        "NodeJS", "Mac", "Linux", "...Windows"
+      ]
+    },
+    {
+      "name": "DevOps & Testing",
+      "level": "intermediate/master",
+      "keywords": [
+        "Rake",
+        "QUnit", "Mocha", "RSpec", "JUnit",
+        "Cucumber", "Selenium",
+        "Gitlab", "Github",
+        "Docker",
+        "GruntJS", "BroccoliJS", "EmberCLI",
+        "CoreOS"
+      ]
+    }, {
+      "name": "Architecture",
+      "keywords": [
+        "DDD", "Software Design", "Microservices"
+      ]
+    }, {
+      "name": "Others",
+      "keywords": [
+        "Agile", "Scrum"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Arabic",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent speaker"
+    },
+    {
+      "language": "Amazigh",
+      "fluency": "Fluent speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Entertainment",
+      "keywords": [
+        "Cinema",
+        "Documentaries",
+        "Sport",
+        "Mangas",
+        "Video Games"
+      ]
+    }, {
+      "name": "Everyday's life",
+      "keywords": [
+        "New Technologies",
+        "Science",
+        "Familly"
+      ]
+    }
+  ],
+  "references": [
+  ]
+}

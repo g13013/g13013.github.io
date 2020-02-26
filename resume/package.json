@@ -1,0 +1,16 @@
+{
+  "name": "aboubakr-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aboubakr Gasmi <g13013@gmail.com>",
+  "license": "proprietary",
+  "dependencies": {
+    "jsonresume-theme-paper": "^0.3.5",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "kiss-my-resume": "^0.8.2"
+  }
+}

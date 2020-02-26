@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Gasmi Aboubakr",
-    "label": "Full Stack Developer",
+    "label": "Software Solutions Architect",
     "picture": "",
     "email": "g13013@gmail.com",
     "phone": "(213) 554-389015",
     "website": "https://g13013.github.io",
-    "summary": "Aboubakr is a self-taught passionate developer, he loves creating things and automate whenever possible, he also enjoys the precious moments with his family and friends",
+    "summary": "Aboubakr is a self-taught passionate developer and architect, he loves creation, innovation, system architectures & automation, he also enjoys all precious moments with his family and friends<br><br><a target=\"_blank\" href=\"https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-02-20&ci=AWS01150173\"><img alt=\"AWS Certified Architect Associate\" src=\"data:image/png;base64,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\" /></a>",
     "location": {
-      "address": "250 log Bt L cage 2",
+      "address": "250 Log BT L Cage 2 Porte 7",
       "postalCode": "16002",
       "city": "Algiers",
       "countryCode": "DZ",
-      "region": "Cheraga"
+      "region": "Chéraga"
     },
     "profiles": [
       {
@@ -23,7 +23,7 @@
       {
         "network": "Linkedin",
         "username": "aboubakr-gasmi",
-        "url": "https://dz.linkedin.com/in/aboubakr-gasmi-15028716"
+        "url": "https://www.linkedin.com/in/aboubakr-gasmi-15028716"
       },
       {
         "network": "Github",
@@ -37,10 +37,12 @@
       "company": "Emploitic SPA.",
       "position": "Software Architect",
       "startDate": "2018-03-01",
-      "summary": "Emploitic.com is a start-up based in Algiers (Algeria), recently launched two new products for the African continent Novojob.com and Talenteo.com",
+      "summary": "Emploitic is a multinational company based in Algiers (Algeria) and is present in 5 countries by January 2020. mainly providing HR solutions and owns emploitic.com, novojob.com, talenteo.com, kherdja.com",
       "highlights": [
-        "Design future architecture, using containerized MicroServices (Docker/Kubernetes), communicating using REST, GRPC & PROTOBUF.",
-        "Prepare the rewrite of of existing PHP services in Golang."
+        "Design architectures of emploitic.com, novojob.com & talenteo.com (API first) using rechnologies like REST, GRPC & PROTOBUF.",
+        "Leading & coordinating the move to containerized development & production environements (Docker/Swarm/Kubernetes).",
+        "Designed, implemented & deployed (in golang) of internal mailing microservices that auto-handles bounce messages in real-time (Barid/Bouncestash/Bouncebeat).",
+        "Prepare the migration of some existing PHP services to Golang."
       ]
     },
      {
@@ -50,10 +52,9 @@
       "endDate": "2018-03-01",
       "highlights": [
         "Prepare the guidelines and lead the introduction and application of DevOps practices in the development process.",
-        "Prepare for the switch to a fully automated deployment pipeline.",
-        "Implemeted the automated deployment of our 3 products.",
-        "Design and implementation of Talenteo. REST API v2 using DDD patterns.",
-        "Migration of our Java based functional test to Ruby, using cucumber.",
+        "Implemeted the fully automated deployment of emploitic.com, novojob.com & talenteo.com.",
+        "Design and implementation of Talenteo REST API v2 using DDD patterns.",
+        "Leading the migration of our Java based functional tests to Ruby, using cucumber.",
         "Prepare for the migration of our product's front-end to a single page application.",
         "Prepare for the switch of our products backend to a microservices architecture."
       ]
@@ -61,43 +62,48 @@
     {
       "company": "Emploitic SARL",
       "position": "Lead Front-End Developer",
-      "startDate": "2013-02-01",
+      "startDate": "2014-02-01",
       "endDate": "2015-04-01",
       "highlights": [
         "Code reviews.",
         "Manage and prioritize Front-End tasks and stories.",
-        "Initiated 3 internal Ruby projects used enhance the developer experience allowing for using our functional tests written in (Java/Cucumber) on the CI and developer machine with simple commands.",
-        "Designed the architecture and configuration of the company's CI platform for our products, with Gitlab (in-promise) as the CVS.",
-        "Configured and installed the entire CI platform hosted in multiple local/remote CoreOs/Ubuntu machines, backed by a total of 14 CI services."
+        "Initiated 3 internal Ruby projects used enhance the developer experience allowing for using our functional tests written in (Java/Cucumber) on the CI and developer machines with simple commands.",
+        "Designed the architecture and configuration of the company's CI platform for our products, with Gitlab (on-premises) as platform",
+        "Configured and installed the entire CI platform hosted in multiple local/remote CoreOs/Ubuntu machines, backed by a total of 14 CI services (for DNS, caching ...)."
       ]
     },
     {
       "company": "Emploitic SARL",
       "position": "Front-End Developer",
-      "startDate": "2013-02-01",
-      "endDate": "2015-04-01",
-      "website": "http://www.emploitic.com/",
+      "startDate": "2013-02-13",
+      "endDate": "2014-02-01",
       "highlights": [
-        "Development of a single app multi-CV editing application using EmberJS, with a custom simplified Data layer (before Ember-Data v1 was released).",
+        "Development of a SPA multi-CV editing application using EmberJS, with a custom simplified Data layer (before Ember-Data v1 was released).",
         "Facebook single page job searching application using jquery, api backed by php.",
         "Initiated the company's internal JavaScript library project Elib-Core.",
         "Initiated and contributed to the internal HTML components (widgets) project on top of the internal library Elib-Core.",
-        "Introduced assets and product build tools to the company."
+        "Introduced assets and product build atomation tools to the company."
       ]
     },
     {
       "company": "ImaginePartners",
       "position": "Front-End Developer",
-      "startDate": "2012-11-01",
-      "endDate": "2013-02-01",
+      "startDate": "2012-10-14",
+      "endDate": "2013-02-07",
+      "summary": "Software Development and Consulting company based in Algiers"
+    },{
+      "company": "Logiccap",
+      "position": "Front-End Developer",
+      "startDate": "2012-01-02",
+      "endDate": "2012-02-29",
       "summary": "Software Development and Consulting company based in Algiers"
     },
     {
       "company": "GMS (Mercedes-Benz Algeria)",
       "position": "CTO",
       "website": "http://www.gmsalgerie.com/",
-      "startDate": "2007-12-01",
-      "endDate": "2008-09-01",
+      "startDate": "2008-09-01",
+      "endDate": "2011-12-29",
       "summary": "GMS was the exclusive representant of Mercedes-Benz in Algeria, since 2010, it also represent various chinese and american cars brands like Dodge, Jeep, Chrysler and GreatWall..",
       "highlights": [
         "Budget Management.",
@@ -108,9 +114,8 @@
     {
       "company": "GMS (Mercedes-Benz Algeria)",
       "position": "Engineer",
-      "website": "http://www.gmsalgerie.com/",
-      "startDate": "2008-09-01",
-      "endDate": "2011-12-01",
+      "startDate": "2007-12-25",
+      "endDate": "2008-09-01",
       "highlights": [
         "User assistance & PC's maintenance.",
         "Network troubleshooting and maintenance."
@@ -125,9 +130,26 @@
       "studyType": "Bachelor",
       "startDate": "2004-01-01",
       "endDate": "2009-01-01"
+    },
+    {
+      "institution": "Hopeland Institute",
+      "area": "English level 4/5",
+      "studyType": "Private school",
+      "startDate": "2008-01-01",
+      "endDate": "2010-01-01"
     }
   ],
-  "awards": [],
+  "awards": [{
+    "title": "AWS Certified Solutions Architect Associate (SAA-C01)",
+    "date": "2020-02-19",
+    "awarder": "Amazon Web Service (AWS)",
+    "summary": "<p>The AWS Certified Solutions Architect – Associate exam is intended for individuals with experience designing distributed applications and systems on the AWS platform.</p><p><a target=\"_blank\" href=\"https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2020-02-20&ci=AWS01150173\"><img alt=\"AWS Certified Architect Associate\" src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH5AIaBxokjQQfIAAADL9JREFUaN7NmntwXNV5wH/nvnbvPvRY7a6ELFuyLEuyZcuWnziWGUIwJTxCoKWp22LodBo6NDQJDM1kJp3+0XY6bZO2tE3SKe00DuExJUAmQAaCCQUbAzYBYhtbQrJly7ak1XPfd3fv3Xv6h2RFkmVbLyZ8/+zd3XvPub/zfd/5vnO+I/gEZN03Bi9erpGSvwCKQvBtAR0SOP730SXvU3xCACEp+X1X8mclpmgCSFqyQxF8TwieAkZYYqAlAZkC4AFuKro87NHZuaPB0PbuMpESfnjQ4p3ugpO3OaQq/BPwCpBbKqBFg0xAKMBG1+VrQnBnU7UWuGenye71Hvye8S4yecmrx/P86KBFR7+TcV1+qir8M/BLwF0szIJBpmihRkr+xJX8cVWpsuyubV5+Z5tJVaky63OxhMtzR3I8e8Sib8wdEIJ9iuA/DE2cKThywdqZN8gUgKCE33Zdvhrwig2fa/GIe9pNmqs1lKu0KiV8PODwxFsWPz+Wl0lLnlQE/y4ETwNjMH9zmxfIBIQOtBddHtZVbmyr0z337vKxs1HH0OY3LnYRDp8qsO+AxeFTBbvgcHDCf14F8vMBmlPPEwACaHIlDwJ7VkbU8j07TG5t81DmU+bSzGUlnZO8cizPE29ZfNzvpKXkeUXhUeAD5ug/VwSZYkYRKdnrSh4IBZT629s87NlhsiKsLgpgpgzEXX582OK593IMxN0+IfgfRfCfQC9cWTuzgkwBMIFbii4PeXWxvb3JUO/dZbKxVkedUIJt24zFE3i9XnymiStddE0jny/g8RgUCjaKqpBIpABJqLwMRVHAisH5VyC0HkIbQYy/ipTQ0e/wo4MW+4/nZSonP1IE/yoEzwDxywGJy0AowJaiy0Oqwu1rl2m+vbt83LDWwDSmP/KLNw/x4bETJBIptrStZyye4LrPbOexfU/x4P338cLLr+H3mZzu6aWyMsIXbrmJyuIxePebEDsMpatg7f3Q8hVQjMl2C47knW6bHx7I8l6PbRcc3pjwn9eAwkwYbSqAHL+scyX3S8kfLStXKu/ebnLnVi+R4Ox+0LCyFl3TeOW1N4kNDnO+r5+A30/v+T7e++AoscEhKqNhbMdh++YNlJeVwi9fhP63IdwKVe3Q9TSs3gve8GS7hia4rtlgY63Oy0dz+pOHrBu7B4rbJDynCB5d943Bo0zxH3WqKQm4VUp+EPSKL96+yRv45h0Bdq/7dVCbKfl8ge899jiGodPXH2NVfR3FosvxE51cu7WNQ4ffZ01TA1+663YAfvyTn1FSWsIK5TiYUai/G049BdKFpvtA813Sh0cXtNToXNds4NWF59xocWO2IL8ADAJHo+2PMPjWPzJtmF3JZ8v9ytq/vjso/vLOII1V2kXTnVUkkoJjk0ilUVQV13VpaV5N1sqx89rNJJMp1rc0c/xkJ0PDI/h8JrqmQfVnwbHgV98Gawjq7wI9yJWkulzlz3/Lzz/sKSESVKpdl62zmtYECCWmYOMKHX0OE5LX4+HBL99HX3+MO27ZjWl6MXSdtc2riYRD/O1fPUI4FCKdySCEwtZNrTTU14HSCiXNcOZ5iGxBVu5EKNpV+xMCVkVVAqagP8E0LUx7WkDRleNAc5VopIJopGLab1XeCK4rKS0JYts2AD7Tg9frIZXOUFoSRJbUI1ofBuDc+QuEQyF8PnNunc7yfjOHYT4MAPSeu0AunycY8DM8MkqovIxMJosQgrPnLtC4up5CweZs73mikTBIGB4ZIZfLE42EiQ0OERscpmxTyZz7nDD3aW6xqJBsWTkGh4ZZXlPNqZ6z2LbD+Qv9JFNpopEwofIyVEUll8tRVRklGgnT1z/AhQv9ZDJZTnZ2Ea6oIFxRjivnNoSKAEUIkEwz/qsb5hVEVRWklCQSSQxdx+MxiEQqSKcymKaJ67rYto2h66iKitfrwev1AhCNhMnl84yOjmFZOYSYY552mdsWBWIYBo0N9WSyFmuaVxOPJykJBglXhDAMnfq6FSiqitfjQUqJpmmUlATJZrLkCwWuqapkLB4nGqkg4Pcv5lUWBwJQWlpCaem4fQcDgWn/hULll9yvo+H1eCa/V1UuzXJ3cWnrp0gWDJLP58lkssgpTuo4DmPxxLTffn1/gXgi8ekCGRwa5sn/fZ79r79JKpUml8uRzVqMjI7xs5f3k88XsB2HQqHAQGyIt999j/5YjBMdXTiOw+joGLbtUCjYJJMpMpkstu0wOhbHtp0Fgcz0ESnleCp9JUmnMwzEhmhavYp0Jsv+F9+gWHRZ09xIvlDgw6PHx184nqCQL3Ci82NuuK6dVDrN/tcPcO78BWqWVVMsFhkeGQUgEq5gcGiY2z6/m0i4gvnKTI04UsqrzunLa5Zx2+dv5K13jvD6GwcRQqEiVM7pnrO4UhJPJBkcGiE2OERpaZDammWUlZXQ1z9Az5le1q1t5kzvOWJDwzSsWkkul6OstATLyk2CLRZkTlEpkUzS1X2aymiEzW2t6LpGPJFgc1srZaUlBIMBEskkQb+f2hXLUTWNZCpNfV0tG1tbONnZTeu6tayuryNcEWJlXS0ej4dgwI+qXjnJE3Bxc2OaNS1o+q0IlXPzTTegaRqGrrOqvg7XlXg8Bg31dQgh2La5DUVVUIRg1crayYAnhJiA15FyPN1obKhHSknrujUYhnHFvoUQS5eiCCHwmSZW1iJfKKBPRHUAVVVRFIXY4BC53HjEHh4ZZXQsPjmbGYaBEAJFEROfChLQtLmN62zBfcEBMZ3J8F8/eIJtW9rYsX0rY/E4uq5j2za24/D6m2+xsm4Fa5tWExscwnGK/N+BQ2zfugm/z0cqlab6mipGx8awbZtjH3UQKi9j25a2uacrSwFyuqcXVdPoPn2GSCTMy6++zvqWZrpPnWHTxvUUCjYdnV10dHZRs6yafD7PiZOdVFVG6fi4Gytr0dS4ijNnz7Nh/Vo6u7qpXV6D67pX9ZPZZMEB8dhHJ9BUlb7+GD1neomEK6hZVo2ULg31dWiaSsvaZqSUZLJZDMMgEg4T8PsZGRljWXUVrisBSePqVVRFo1SEQguCWLBGbNuhdnkNt928mzO958hmLaoqI9StqKF+ZS3HT3TS3NhAVWUUIQQBvw+v10swGKBYLHL9rh2MjI6xvqUZXdM42dnFxtYW+gZiFCay5cWCzMk4dV2j/TPbAdiwvmXafzd97vpp32tX1ExeN9TXXdLWsuprJq+bm1YvSBtwqWnNe6n7aREFpu3cFeeSoixU5FI1PIvdTN98EJB3oD/usrxi7k53uucsiqKwvKYa2xlP+lRFwXac8cDnumSyFrlcntKSIELA4PAIVdEoxWIR0/TOacqVwNnhIilLIgT6BJK8BEQRdCey7tC3nklF7t7u5YtbLr/DeFGcYpFTEyDDI6OoqkIqlSEUKiORSKJqKtKVlJWVks/n6T13nqxlkUplGKwaZnhklLYN6666wBpOuTz/Xo5n3rXoj7tDqsI7TEmpJoc92v4IwEngQCIrS46ctlceOW3rpiGoqVDR1dlHbHQszvDwCAjQdZ14IonHYzAQG8Lr9ZCz8hTdIqFQOYNDwyQSSTRNIxDwY9s2QownoebEWn6mWAXJq8cK/N0LaV78IJ9NZOXziuCrwE8BedEtpr3djF34W4suX/fqYvvORl3du8tHW52ONkNB+Xx+wqckyWQaxLiPeTwGlmXh9/koui6u62IYBtlsFtM0KToOijq+wxIqL0OfMeUWXfhVr82+AxYHOwtFqyAPT2xivwRYMH1X/mplhYiU/KEreaDcLxpu2ehlzw6TlVF1aevaM6R3pMjTb1u88H6ekbTbowi+LwT7GN/vnVtZ4TJAja7kASR/sLxCDf/utV7u2OylIrC0S/5E1uWlD/M8eciiZ6g4BjytCP4N6GCKGc0m8ym9acC1EzWTm9cv18x72n1cv+bSmsl8peBIDnXZ7Hszy/tn7IJdZL+q8B3gAGAvuvQ2CwyAX8JtrsvXTUNsaW8y1HvbTTZMqWLNVS5Wpx6fqE6lc/KoovCogGeBJCxxMfQyQFEpudeV/GkooNTf1ubh93aY1M2xrhhLjNcLnz0yWS/8b0XwGHBuPgALBpkBdLHS+xVgT21YDX3pWpPbN3kI+WdXTyYv2X88z+MHLTr6nLSU/ERR+BfmUcFdUpAZQBqws+jykKZyU+ty3bt3l3mxygSA48L7PTb7DmQ51DV5JuU7wM+B3G/sCMcsMAABCXe4Ll/zGWLTdWsMZW+7SdBUePpti5c+zBHPyK6JUw5PsISnhD6pY05VUnKfK/lyOKisNDToj7tDwBOK4LtA91IBfCIgM4AEsMGVfAuIKoK/AX4BOJ/EwbP/B7Joa06xclULAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTAyLTI2VDA3OjI2OjM2LTA1OjAw21x3CAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wMi0yNlQwNzoyNjozNi0wNTowMKoBz7QAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAAAElFTkSuQmCC\" /></a></p>"
+  },{
+    "title": "eMB Basic Training Wholesale Certificate",
+    "date": "2011-02-09",
+    "awarder": "Daimler (Mercedes-Benz)",
+    "summary": "Stuttgart (Germany)"
+  }],
   "publications": [
     {
       "name": "Talk slides about EmberJS in Algiers Tech Meetup",
@@ -142,6 +164,7 @@
       "level": "intermediate/master",
       "keywords": [
         "JavaScript",
+        "Golang",
         "Ruby",
         "PHP",
         "Python",
@@ -164,7 +187,6 @@
       "keywords": [
         "EmberJS", "Angular", "ExtJS4/5",
         "ExpressJS", "Koa", "Hapi",
-        "Ruby On Rails",
         "NodeJS", "Mac", "Linux", "...Windows"
       ]
     },
@@ -176,9 +198,8 @@
         "QUnit", "Mocha", "RSpec", "JUnit",
         "Cucumber", "Selenium",
         "Gitlab", "Github",
-        "Docker",
-        "GruntJS", "BroccoliJS", "EmberCLI",
-        "CoreOS"
+        "Docker", "Swarm",
+        "GruntJS", "BroccoliJS", "EmberCLI"
       ]
     }, {
       "name": "Architecture",
@@ -202,11 +223,11 @@
       "fluency": "Native speaker"
     },
     {
-      "language": "English",
-      "fluency": "Fluent speaker"
+      "language": "Amazigh/Kabyle",
+      "fluency": "Native speaker"
     },
     {
-      "language": "Amazigh",
+      "language": "English",
       "fluency": "Fluent speaker"
     }
   ],
@@ -214,9 +235,9 @@
     {
       "name": "Entertainment",
       "keywords": [
-        "Cinema",
+        "Movies",
         "Documentaries",
-        "Sport",
+        "Sports",
         "Mangas",
         "Video Games"
       ]
