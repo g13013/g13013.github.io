@@ -7,12 +7,16 @@
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
   <style>{{{css}}}</style>
-  <style media="print">{{{print}}}
-  @page {
-    size: 210mm 297mm;
-  }
+  <style media="print">{{{print}}
 
   @media print {
+    body {
+       display: table;
+       table-layout: fixed;
+       padding-top: 2cm;
+       padding-bottom: 2cm;
+       height: auto;
+    }
     .content {page-break-inside: auto;}
     ul {page-break-inside: auto;}
   }
