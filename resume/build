@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e 
 
-# docker build . -t myresume-builder
+docker build . -t myresume-builder
 docker run -it -v `pwd`:/home/out --rm myresume-builder build out/resume.json -o out/ -n resume -f pdf -t paper
-# docker run -it -v `pwd`:/home/out --rm myresume-builder build out/resume.json -o out/ -n resume -f docx -t paper
-# docker run -it -v `pwd`:/home/out --rm myresume-builder build out/resume.json -o out/ -n index -f html -t stackoverflow
+docker run -it -v `pwd`:/home/out --rm myresume-builder build out/resume.json -o out/ -n resume -f docx -t paper
+docker run -it -v `pwd`:/home/out --rm myresume-builder build out/resume.json -o out/ -n index -f html -t stackoverflow
