@@ -12,8 +12,9 @@
     size: 210mm 297mm;
   }
 
-  .paper {
-      page-break-inside: avoid;
+  @media print {
+    .content {page-break-inside: auto;}
+    ul {page-break-inside: auto;}
   }
 
   </style>
