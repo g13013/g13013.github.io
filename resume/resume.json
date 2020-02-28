@@ -37,11 +37,21 @@
       "company": "Emploitic SPA.",
       "position": "Software Architect",
       "startDate": "2018-03-01",
-      "summary": "Emploitic is a multinational company based in Algiers (Algeria) and is present in 5 countries by January 2020. mainly providing HR solutions and owns emploitic.com, novojob.com, talenteo.com, kherdja.com",
+      "summary": "Emploitic is a multinational company based in Algiers (Algeria) and is present in 5 countries by January 2020. mainly providing HR solutions and is owner of emploitic.com, novojob.com, talenteo.com & kherdja.com websites.",
       "highlights": [
-        "Design architectures of emploitic.com, novojob.com & talenteo.com (API first) using rechnologies like REST, GRPC & PROTOBUF.",
+        "Designing/Architecturing the future REST/gRPC API services for our Jobboard/ATS platforms, emploitic.com, novojob.com & talenteo.com using OpenAPI v3 format",
         "Leading & coordinating the move to containerized development & production environements (Docker/Swarm/Kubernetes).",
-        "Designed, implemented & deployed (in golang) of internal mailing microservices that auto-handles bounce messages in real-time (Barid/Bouncestash/Bouncebeat).",
+        "Designed and Configuring a three node (Master/Node) Docker Swarm cluster for development (az-01), backed with GlusterFS volumes as persistent storage for distributed applications",
+        "Implented/Deployed a multi-tier CI platform, using Gitlab in premise, Gitlab runners, Traefik as reverse proxy on a 3 node Swarm cluster, CoreDNS as dynamic DNS and wildcard letsencrypt generated certificates",
+        "Designed and refactored DevOps multi-project/multi-branching automated CI platform/pipeline to ease the deployment of new projects with little to no effort, a simple fork leading to an automated deployment with unique DNS hostname (valid SSL) and namespace with zero configuration",
+        "Designed a 4 trier internal mailing microservices that auto-handles bounce messages in real-time (Barid/Bouncestash/Bouncebeat).",
+        "Implemented and deployed Barid, a golang multi-domain/multi-queue message queueing & sending service for mass mailing, with server/worker tier (same binary), queue (rabbitmq) tier and Bouncestash tier for bounce mail addresses query & filtering, communicates using gRPC protocol and Protobuf message encoding secured with x509 certificate authentication, client libraries are autmatically generated for these languages: PHP/Golang/Ruby/Python",
+        "Implemented Bouncestash for bounce email addresses collection/querying and Bouncebeat, a CLI real-time multi-source (IMAP/POP/SMTP log) bounce emails parser & and extractor that sends to Bouncestash server. Written in Golang",
+        "Deployment of a 2 tier platform, Minio, an AWS S3 compatible tool and Nginx to support static website deployment and hosting for our documentation and built artifacts hosting",
+        "Directed the implementation of fully automated static documentation generation tools using mkdocs/docker and Gitlab template pipelines, a single import of a gitlab-ci.yml task definition triggers the build and deployment of a beautiful static documentation hosted on the in-prem docker cluster",
+        "Configured a Golang mirror to speedup golang projects builds.",
+        "Deployed CI monitoring tools & allerting tools stack (Docker swarm): Grafana, cadvisor, prometheus, dockerd-exporter, node-exporter, alertmanager and unsee",
+        "Implement/Maintain docker images to use in CI projects build stages: php/composer, golang, protobuf, grpc, mkdocs, html-tools (html/markdown validation tool) ...",
         "Prepare the migration of some existing PHP services to Golang."
       ]
     },
@@ -51,12 +61,14 @@
       "startDate": "2015-04-01",
       "endDate": "2018-03-01",
       "highlights": [
-        "Prepare the guidelines and lead the introduction and application of DevOps practices in the development process.",
-        "Implemeted the fully automated deployment of emploitic.com, novojob.com & talenteo.com.",
-        "Design and implementation of Talenteo REST API v2 using DDD patterns.",
+        "Prepare the guidelines and lead the introduction and application of DevOps practices in the development processeses (Documentation/Training Sessions)",
+        "Implemeted the fully blue/greep automated production/staging deployment of our CMS on emploitic.com, novojob.com & talenteo.com using an Rsync wrapper script entirely written in bash that handles deployment cache to speedup the process (rsync delta sync to a stage folder) and dynamic configuration templates",
+        "Design and implementation of a two tier Talenteo REST API v2 using DDD patterns. Written in PHP/Symfony with OpenAPI 2 definition and MySQL as a database engine",
         "Leading the migration of our Java based functional tests to Ruby, using cucumber.",
-        "Prepare for the migration of our product's front-end to a single page application.",
-        "Prepare for the switch of our products backend to a microservices architecture."
+        "Launched an internal CLI app `Emploitic Development Kit` (edk) with support for exentions written in python that contains a set of tools to enhance and quick-bootstrap developers environement and helps in everyday's tasks",
+        "Prepared & Lead the migration of our product's front-end to a single page application using React/Vue frameworks",
+        "Preparation/Design & Leading the switch of some of our products backend to microservices (messaging, and user log services) backed with Xapian as storage and indexation engine",
+        "Leading the integration and automation of our ElasticStack platform deployment and configuration"
       ]
     },
     {
@@ -67,9 +79,15 @@
       "highlights": [
         "Code reviews.",
         "Manage and prioritize Front-End tasks and stories.",
-        "Initiated 3 internal Ruby projects used enhance the developer experience allowing for using our functional tests written in (Java/Cucumber) on the CI and developer machines with simple commands.",
+        "Initiated 3 internal Ruby gem modules projects, `selenium-dependencies`, `tests-runner`, `rake-utils` roviding an enhanced developer experience allowing the use of our functional tests written in (Java/Maven/Cucumber) on the CI and developer machines with neerly identical environments with zero configuration",
         "Designed the architecture and configuration of the company's CI platform for our products, with Gitlab (on-premises) as platform",
-        "Configured and installed the entire CI platform hosted in multiple local/remote CoreOs/Ubuntu machines, backed by a total of 14 CI services (for DNS, caching ...)."
+        "Configured/Installed the entire CI platform (CoreOs/Ubuntu) machines",
+        "Installed & Configured Gitlab to replace redmine as our source version control and CI platform",
+        "Migrated the entire multi-branch deployment pipeline to use in-premise Gitlab/Gitlab-runner with Shell and Docker runners",
+        "Configured a bower, npm, ruby gem, maven mirrors and caches to speedup build deployments",
+        "Contributed/Installed a Docker based DNS service written in python to automatically and dynamically register branches DNS hosts in the internal entreprise network",
+        "Introduced/Deployed mailcatcher for mailing testing and review to mitigate the risk of leaked tests email messages during tests"
+
       ]
     },
     {
@@ -79,6 +97,7 @@
       "endDate": "2014-02-01",
       "highlights": [
         "Development of a SPA multi-CV editing application using EmberJS, with a custom simplified Data layer (before Ember-Data v1 was released).",
+        "Implemented our in-house multi-branch website deployment using Git Hooks and bash scripts with an automatically updated listing page providing quick access to branch's deployment URL",
         "Facebook single page job searching application using jquery, api backed by php.",
         "Initiated the company's internal JavaScript library project Elib-Core.",
         "Initiated and contributed to the internal HTML components (widgets) project on top of the internal library Elib-Core.",
@@ -108,7 +127,8 @@
       "highlights": [
         "Budget Management.",
         "Development of the company's Sales Management System Using ExtJS.",
-        "Installation & configuration of multiple Windows AD Servers hosted on HyperV."
+        "Installation & configuration of multiple Windows AD Servers hosted on HyperV.",
+        "Automated user profile registering and configuration within Active Directory using a portal registration page and Powershell script to apply and configure GPO permissions and setup"
       ]
     },
     {
